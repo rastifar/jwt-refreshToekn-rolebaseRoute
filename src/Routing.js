@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import {
-  Admin,  
+  Admin,
   Layout,
   Missing,
   Lounge,
@@ -14,13 +14,13 @@ import {
   Unauthorized,
   Home,
 } from "./components";
+import ErrorBoundary from "./components/ErrorBoundary";
 
 const ROLES = {
-    'User': 2001,
-    'Editor': 1984,
-    'Admin': 5150
-}
-  
+  User: 2001,
+  Editor: 1984,
+  Admin: 5150,
+};
 
 const Routing = () => {
   return (
@@ -54,6 +54,7 @@ const Routing = () => {
           </Route>
 
           {/* catch all */}
+          {/* <Route path="*" element={<ErrorBoundary />} /> */}
           <Route path="*" element={<Missing />} />
         </Route>
       </Routes>
