@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jwt-refreshToekn-rolebaseRoute/static/css/main.a2cb3536.css",
+    "main.js": "/jwt-refreshToekn-rolebaseRoute/static/js/main.1b2c5e97.js",
+    "index.html": "/jwt-refreshToekn-rolebaseRoute/index.html",
+    "main.a2cb3536.css.map": "/jwt-refreshToekn-rolebaseRoute/static/css/main.a2cb3536.css.map",
+    "main.1b2c5e97.js.map": "/jwt-refreshToekn-rolebaseRoute/static/js/main.1b2c5e97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2cb3536.css",
+    "static/js/main.1b2c5e97.js"
+  ]
+}
